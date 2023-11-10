@@ -34,7 +34,7 @@ export default function Document() {
         
               if (getCookie("consent") == "yes" && getCookie("analytics") == "yes") {
                 const script = document.createElement("script");
-                script.setAttribute("src", "<URL of your script>");
+                script.setAttribute("src", "youtube.com");
                 document.body.appendChild(script);
               }
             `,
