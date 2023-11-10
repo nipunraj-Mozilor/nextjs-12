@@ -12,14 +12,9 @@ export default class YoutubeVideo extends React.Component {
     };
 
     return (
-      <div>
+      <div data-cookieyes="cookieyes-analytics">
         <h3>GeeksforGeeks - Youtube</h3>
-        <YouTube
-          videoId="VChwoluq5-s"
-          data-cookieyes="cookieyes-analytics"
-          opts={opts}
-          onReady={this._onReady}
-        />
+        <YouTube videoId="VChwoluq5-s" opts={opts} onReady={this._onReady} />
       </div>
     );
   }
